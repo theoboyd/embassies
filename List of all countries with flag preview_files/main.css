@@ -1,0 +1,535 @@
+* {
+	font-size:100.01%;
+	margin:0;
+	}
+
+body {
+	font:.8em Arial,sans-serif;
+	}
+
+img {
+	border:none;
+	}
+
+h1 {
+	margin-top:2em;
+	font-size:1.7em;
+	color:#539517;
+	font-weight:normal;
+	}
+
+.first_letter {
+	font-size:1.9em;
+	color:#497aab;
+	position:relative;
+	top:.1em;
+	left:-.3em;
+	z-index:100;
+	}
+
+h2 {
+	margin-top:1.3em;
+	font-size:1.5em;
+	font-weight:normal;
+	color:#497aab;
+	}
+
+h3 {
+	margin-top:1.8em;
+	font-size:1.4em;
+	color:#444;
+	font-weight:normal;
+	}
+
+a:visited {
+	color:#53589d;
+	}
+
+a:active,a:link {
+	color:#019cbd;
+	}
+
+a:hover {
+	color:#73ca26;
+	text-decoration:none;
+	}
+
+hr {
+	display:none;
+	}
+
+.divider {
+	margin:0 2em 0 2em;
+	border-top:1px solid #ccc;
+	}
+
+
+/*--------------------------------------------------
+-------->    бепусьйю ярпюмхжш   <------------------
+----------------------------------------------------*/
+
+/*  оНХЯЙ  */
+
+#hint {
+	display:none;
+	border:1px solid #ccc;
+	position:absolute;
+	left:-0px;
+	top:-1px;
+	background:#ffffff;
+	z-index:5;
+	padding:2em;
+	padding-left:.4em;
+	}
+
+#hint span {
+	padding-left:2em;
+}
+
+#hint td {
+	line-height:2.1em;
+	color:#999;
+	}
+
+#hint td b {
+	line-height:2.1em;
+	color:#555;
+	}
+
+#hint td a b {
+	line-height:2.1em;
+	color:#037790;
+	}
+
+#hint td a:hover b {
+	line-height:2.1em;
+	color:#73ca26;
+	}
+
+#hint img {
+	margin-right:2em;
+	position:relative;
+	border:1px solid #ccc;
+	}
+
+span.blocklink_sel {
+	color:#999;
+	font-size:1.1em;
+	}
+
+a.blocklink,span.blocklink_sel {
+	border:1px solid #fff;
+	display:block;
+	height:18px;
+	float:left;
+	padding:.3em .6em .3em .6em;
+	}
+
+a.blocklink img.arrow {
+	display:none;
+	}
+
+a:hover.blocklink,span.blocklink_sel {
+	border:1px solid #bdbcbc;
+	background:#ebebeb;
+	}
+
+a:hover.blocklink img.arrow, span.blocklink_sel img.arrow {
+	display:inline;
+	}
+
+img.arrow {
+	position:relative;
+	top:19px;
+	display:none;
+	/top:17px;/
+	}
+
+.blocklink span {
+	padding-right:10px;
+	padding-left:10px;
+	}
+
+a:hover.blocklink span, span.blocklink_sel span {
+	padding-left:10px;
+	padding-right:0px;
+	}
+
+.logo {
+	width:200px;
+	}
+
+.logo img {
+	margin-right:20px;
+	margin-bottom:20px;
+	}
+
+.header {
+	margin-top:30px;
+	}
+
+.header a {
+	font-size:1.1em;
+	}
+
+#searchline {
+	width:60%;
+	border:1px solid #ccc;
+	font-size:1.3em;
+	padding-left:.3em;
+	color:#bbb;
+	height:1.4em;
+	}
+
+#searchsubmit {
+	width:5em;
+	border:1px solid #aaa;
+	background:#e9e9e9;
+	margin-left:1em;
+	font-size:1.3em;
+	color:#666;
+	height:1.4em;
+	}
+
+
+/*--------------------------------------------------
+------------->    яохянй ярпюм   <------------------
+----------------------------------------------------*/
+
+.countries_list h2 {
+	color:#777;
+	margin:0;
+	margin-right:20px;
+	}
+.countries_list p {
+	font-size:1.2em;
+	width:100%;
+	}
+
+.countries_list p a {
+	display:block;
+	float:left;
+	margin-right:1.1em;
+	}
+
+.countries_list p b {
+	display:block;
+	float:left;
+	margin-right:1.1em;
+	color:#333;
+	}
+
+/*--------------------------------------------------
+--------->    нямнбмни йнмремр   <------------------
+----------------------------------------------------*/
+
+.wrap {
+	text-align:center;
+	margin:0 10% 0 10%;
+	}
+
+.content {
+	text-align:left;
+	width:100%;
+	}
+
+.row1 {
+	float:left;
+	width:33%;
+	}
+
+.row2 {
+	float:right;
+	width:33%;
+	}
+
+.row1 div, .row2 div {
+	margin-left:1.5em;
+	margin-right:2em;
+	}
+
+.content p {
+	margin-top:1.5em;
+	line-height:1.4em;
+	color:#666;
+	}
+
+.content .green {
+	color:#57991d;
+	}
+
+.content .red {
+	color:#b42a18;
+	}
+
+.country_block {
+	margin-bottom:4em;
+	width:33%;
+	float:left;
+	text-align:center;
+	}
+
+a.download {
+	line-height:1.9em;
+	padding:.3em 1em .3em 1em;
+	margin-right:3em;
+	background:#167dd4;
+	color:#fff;
+	text-decoration:none;
+	}
+
+a:hover.download {
+	background:#16aed4;
+	color:#fff;
+	}
+
+a:visited.download {
+	color:#fff;
+	}
+
+.icon {
+	margin:auto;
+	width:800px;
+	margin-top:3em;
+	border:1px solid #ccc;
+	text-align:left;
+	}
+
+.preview {
+	display:block;
+	width:100%;
+	height:500px;
+	text-align:center;
+	}
+
+.additional {
+	text-align:left;
+	width:800px;
+	margin:auto;
+	}
+
+.other_icon {
+	width:100%;
+	margin:2em 0 0em 0;
+	}
+
+.block_other_icon {
+	width:24%;
+	float:left;
+	text-align:center;
+	margin-bottom:2em;
+	}
+
+.country tr td {
+	padding:.8em 1em .8em 0;
+	}
+
+.country .table_header td {
+	padding-bottom:.5em;
+	color:#497aab;
+	font-size:1.4em;
+	border-bottom:1px solid #ccc;
+	}
+
+/*--------------------------------------------------
+--------------->    ондбюкэвхй   <------------------
+----------------------------------------------------*/
+
+.bottom_menu {
+	margin:1em 0 1em 0;
+	}
+
+.bottom_menu a,.bottom_menu span {
+	margin-right:3em;
+	}
+.bottom_menu span {
+	color:#999;
+	}
+
+.footer {
+	margin:2em 0 1em 0;
+	color:#999;
+	}
+
+
+
+/*--------------------------------------------------
+--------------->    якюидеп      <------------------
+----------------------------------------------------*/
+.ui-slider {
+	position: relative;
+	text-align: left;
+	background:#ddd;
+	}
+
+
+.ui-slider .ui-slider-handle {
+	position: absolute;
+	z-index: 2;
+	width: 1.1em;
+	height: 1.1em;
+	cursor: default;
+	background:#e6e6e6;
+	border:1px solid #999;
+	}
+
+.ui-slider a:hover.ui-slider-handle {
+	border:1px solid #ff9600;
+	}
+
+.ui-slider .ui-slider-range {
+	position: absolute;
+	z-index: 1;
+	font-size: .7em;
+	display: block;
+	border: 0;
+	background:#497aab;
+	}
+
+.ui-slider-horizontal {
+	height: .8em;
+	}
+
+.ui-slider-horizontal .ui-slider-handle {
+	top: -.2em;
+	margin-left: -.6em;
+	}
+
+.ui-slider-horizontal .ui-slider-range {
+	top: 0;
+	height: 100%;
+	}
+
+.ui-slider-horizontal .ui-slider-range-min {
+	left: 0;
+	}
+
+.ui-slider-horizontal .ui-slider-range-max {
+	right: 0;
+	}
+
+#size_lab {
+	color:#f6931f;
+	padding-left:1em;
+	display:none;
+	}
+
+#size {
+	border:0;
+	color:#f6931f;
+	background:#fff;
+	font-size:1.5em;
+	}
+
+#slider {
+	margin-bottom:3em;
+	}
+
+.slider_labels {
+	display:block;
+	height:3em;
+	}
+
+.size_price {
+	color:#666;
+	margin:2em 0 4em 0;
+	border:1px solid #ccc;
+	}
+
+.size_price td {
+	padding: .8em 1.5em .8em 1.5em;
+	border-top:1px solid #ccc;
+	}
+
+.size_price .t_head td {
+	padding: .5em 1.5em .5em 1.5em;
+	border-top:0;
+	font-weight:bold;
+	color:#333;
+	}
+
+.center {
+	text-align:center;
+	}
+
+.cartline {
+	margin:1em 0 1em 0;
+	clear:both;
+	}
+
+.cartimage {
+	position:relative;
+	width:64px;
+	height:48px;
+	overflow: hidden;
+	margin:1em;
+	border:1px solid #ddd;
+	float:left;
+	}
+
+.cartimage img {
+	position:absolute;
+	top:0;
+	left:0;
+	}
+
+.cartline p {
+	margin-top:1.1em;
+	margin-bottom:0.3em;
+	}
+
+.cartline span {
+	color:#999;
+	font-size:.85em;
+	}
+
+.cartline span a{
+	color:#999;
+	}
+
+.clear {
+	clear:both;
+	}
+
+#suggestions {
+	margin:1em 0 2em;
+	color:#666;
+	}
+
+#suggestions div {
+	margin-top:1.3em;
+	}
+
+#suggestions .field {
+	border:1px solid #ccc;
+	border-left:2px solid #019cbd;
+	}
+
+.questions {
+	margin-top:2em;
+	width:800px;
+	}
+
+.questions .item {
+	margin-bottom:2em;
+	}
+
+.questions .item .q-header{
+	border:1px solid #ccc;
+	color:#333;
+	padding:10px 50px 10px 30px;
+	background:#cddfe7;
+	font-size:1.67em;
+}
+
+.questions .item .q-header .date, .questions .item .q-header .nick {
+	font-size:.5em;
+	color:#666;
+	}
+.questions .item .answer {
+	border:1px solid #ccc;
+	border-top:none;
+	color:#555;
+	padding:10px 50px 10px 30px;
+	background:#f1f6f8;
+	}

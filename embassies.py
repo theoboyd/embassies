@@ -3,6 +3,9 @@
 from pygeocoder import Geocoder
 import re
 import sys
+from bunch import Bunch
+
+pins = {}
 
 def generate_embassy_addresses():
     countries = []
@@ -43,12 +46,17 @@ def looks_like_address(text_line):
 def clean_text(source):
     return source.replace("\n", "").replace("\r", "").replace("\0", "")
 
-def geocode(embassy_address_map)
+def geocode(embassy_address_map):
     for country in embassy_address_map.keys():
-        results = Geocoder.geocode(embassy_address_map[country])
-        print(results[0].coordinates + "allflags/" + country.lower() + ".gif")
+        results = Bunch()
+        results.coordinates = {0: 'null', 1: 'null'}
+        #results = Geocoder.geocode(embassy_address_map[country])
+        pins[country] = [results[0].coordinates[0], results[0].coordinates[1], "allflags/" + country.lower() + ".gif"]
 
 if __name__ == '__main__':
     args = sys.argv
     embassy_address_map = generate_embassy_addresses()
-    #geocode(embassy_address_map)
+    geocode(embassy_address_map)
+    print(str(len(pins)))
+    print('\n\n\n')
+    print(pins)
